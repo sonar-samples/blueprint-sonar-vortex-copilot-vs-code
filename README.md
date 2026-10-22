@@ -1,6 +1,10 @@
 # How to set up Sonar Vortex in VS Code with GitHub Copilot
 
-## TL;DR Overview
+> Last updated: October 2026
+>
+> The observed output reflects its recorded environment and may differ by release, organization, and entitlement. Check the current SonarQube documentation before using these instructions in a live environment.
+
+## TL;DR overview
 
 - [Sonar Vortex](https://www.sonarsource.com/products/sonar-vortex/) connects VS Code with GitHub Copilot to SonarQube's full analysis engine, supplying your project's coding guidelines and architectural constraints to the agent before it writes code, then verifying every file it changed before it replies.
 - Vortex fits teams running GitHub Copilot in the VS Code Agents Window against a codebase SonarQube already analyzes in CI, who want project standards enforced during generation rather than after a pull request triggers a pipeline.
